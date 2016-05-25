@@ -95,8 +95,8 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${maven-surefire-plugin.version}</version>
                 <configuration>
-                    <testSourceDirectory>${basedir}/src/main/java/</testSourceDirectory>
-                    <testClassesDirectory>${project.build.directory}/classes/</testClassesDirectory>
+                    <testSourceDirectory>${basedir}/src/test/java/</testSourceDirectory>
+                    <testClassesDirectory>${project.build.directory}/test-classes/</testClassesDirectory>
                     <testFailureIgnore>true</testFailureIgnore>
                     <argLine>
                         -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar

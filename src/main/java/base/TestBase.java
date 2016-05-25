@@ -10,6 +10,7 @@ public class TestBase {
     @BeforeTest
     public void setup() {
         Configuration.browser = "firefox";
+        Configuration.timeout = 20;
         open("http://www.tut.by");
     }
 }
