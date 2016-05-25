@@ -8,9 +8,6 @@ import java.util.List;
 
 import static com.codeborne.selenide.Selenide.$;
 
-/**
- * Created by student on 9/8/2015.
- */
 public class SearchPage {
 
     private static final By RESULTS_LIST = By.className("b-results-list");

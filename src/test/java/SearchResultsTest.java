@@ -5,10 +5,7 @@ import pages.SearchPage;
 
 import static org.testng.AssertJUnit.assertTrue;
 
-/**
- * Created by student on 9/8/2015.
- */
-public class SearchResultsTests extends TestBase{
+public class SearchResultsTest extends TestBase{
     private final String SEARCH_TEXT = "Selenium WebDriver";
     private final String SEARCH_URL = "http://docs.seleniumhq.org/projects/webdriver";
 
